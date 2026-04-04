@@ -1,0 +1,10 @@
+{
+  "name": "devops-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx serve -s build -l 80"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
