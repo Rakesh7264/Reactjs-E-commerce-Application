@@ -2,7 +2,7 @@
 
 IMAGE=rakesh7264/dev:latest
 
-echo "Pulling latest image..."
+echo "Pulling latest image.."
 docker pull $IMAGE
 
 echo "Stopping old container..."
