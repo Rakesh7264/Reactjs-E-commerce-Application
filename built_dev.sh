@@ -3,7 +3,7 @@
 IMAGE_NAME=devops-app
 TAG=latest
 
-echo "Building Docker Image"
+echo "Building Docker Image.."
 docker build -t $IMAGE_NAME:$TAG .
 
 echo "Tagging for DockerHub"
