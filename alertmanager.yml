@@ -1,0 +1,12 @@
+route:
+  receiver: "email-alert"
+
+receivers:
+  - name: "email-alert"
+    email_configs:
+      - to: "rakeelango@gmail.com"
+        from: "rakeshcse7272@gmail.com"
+        smarthost: "smtp.gmail.com:587"
+        auth_username: "rakeelango@gmail.com"
+        auth_password: "evvyvedqagdgutii"
+        require_tls: true
